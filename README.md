@@ -1,6 +1,6 @@
 # LLM Log Pipeline
 
-**LLM Log Processor** is a containerized Go-based service that uses an LLM (e.g., Meta LLaMA 3.1 Instruct, 8B) to automatically analyze and summarize backend logs. It ingests logs through RabbitMQ, processes them with a large language model, and stores insights in a PostgreSQL database for future reference or visualization.
+**LLM Log Pipeline** is a containerized Go-based service that uses an LLM (e.g., Meta LLaMA 3.1 Instruct, 8B) to automatically analyze and summarize backend logs. It ingests logs through RabbitMQ, processes them with a large language model, and stores insights in a PostgreSQL database for future reference or visualization.
 
 ---
 
