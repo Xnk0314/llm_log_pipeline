@@ -109,7 +109,7 @@ docker compose up --build
 
 ---
 
-## 🔁 CI/CD Pipeline (Coming Soon)
+## CI/CD Pipeline (Coming Soon)
 
 Planned CI/CD capabilities:
 
@@ -118,9 +118,9 @@ Planned CI/CD capabilities:
 
 Once implemented, this will allow:
 
-* 🧪 Automated testing on push/PRs
-* 🐳 Docker image builds triggered by changes
-* 🚀 Docker Hub deployments from GitHub
+* Automated testing on push/PRs
+* Docker image builds triggered by changes
+* Docker Hub deployments from GitHub
 
 ---
 
