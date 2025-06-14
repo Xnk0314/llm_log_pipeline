@@ -53,13 +53,13 @@ TOGETHER_API_KEY=your_api_key_here
 Build and run the service:
 
 ```bash
-docker build -t llm-log-processor .
-docker run --env-file .env llm-log-processor
+docker build -t llm_log_pipeline .
+docker run --env-file .env llm_log_pipeline
 ```
 
 ### 4. (Optional) Docker Compose
 
-Use the provided Docker Compose setup to launch RabbitMQ, PostgreSQL, and the processor:
+Use the provided Docker Compose setup to launch RabbitMQ, PostgreSQL, and the pipeline:
 
 ```bash
 docker compose up --build
