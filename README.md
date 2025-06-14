@@ -109,6 +109,21 @@ docker compose up --build
 
 ---
 
+## 🔁 CI/CD Pipeline (Coming Soon)
+
+Planned CI/CD capabilities:
+
+* [ ] GitHub Actions workflow for automated testing and builds
+* [ ] Docker image publishing to Docker Hub
+
+Once implemented, this will allow:
+
+* 🧪 Automated testing on push/PRs
+* 🐳 Docker image builds triggered by changes
+* 🚀 Docker Hub deployments from GitHub
+
+---
+
 ##  Extending This Project
 
 You can add:
