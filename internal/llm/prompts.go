@@ -15,7 +15,7 @@ Return **only** a well-formatted JSON object with the following fields:
 - severity: Level of severity (e.g., low, moderate, high, critical).
 - time_of_occurrence: The timestamp of the error from the log.
 - stacktrace_insight: Key insight from the stack trace that reveals where or why the error happened.
-- file: The source file in 'cmd/api' where the error originated.
+- file: Identify the source file that contains the code triggering the error, not just where it was logged in the stack trace, but the actual file responsible for the failure.
 - line_number: The specific line number of origin if identifiable.
 - summary: A short summary of the error.
 - comprehensive_detail: A concise explanation (1–3 sentences) of how this error affects the system — both technically (code behavior) and from the user’s perspective (UX impact).
